@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'king';
+    src: url(font/king_queen/King\ &\ Queen.ttf);
+}
+@font-face {
+    font-family: 'breasto';
+    src: url(font/breasto_display/Breasto\ Display.otf);
+}
+img{
+    border: none;
+}
+header h1{
+    font-family: 'king';
+    position: absolute;
+    color: #F8F0DE;
+    top: 350px;
+    left: 33vw;
+    font-size: 5vw;
+
+}
+header h2{
+    font-family: 'breasto';
+    position: absolute;
+    color: #F8F0DE;
+    top: 440px;
+    left: 43vw;
+    font-size: 2vw;
+}
+.myButton {
+	background-color:transparent;
+	border:1px solid #F8F0DE;
+	display:inline-block;
+	cursor:pointer;
+	color:#F8F0DE;
+    font-family: 'breasto';
+    position: absolute;
+	font-size:1vw;
+	padding:6px 9px;
+    top: 540px;
+	text-decoration:none;
+    left: 48vw;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+main{
+    background-color: #F8F0DE;
+    width: 100%;
+    height: 200vh;
+}
